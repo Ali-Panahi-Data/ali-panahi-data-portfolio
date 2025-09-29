@@ -23,7 +23,6 @@ CREATE TABLE `quixotic-elf-458922-v0.payroll_2025.total_payroll_union` AS
     `quixotic-elf-458922-v0.payroll_2025.payroll_2020`
 
 UNION ALL
-
   SELECT
     CAST(hash1 AS STRING) AS name,
     CAST(birth_year AS INT64) AS birth_year,
@@ -42,12 +41,10 @@ UNION ALL
     CAST(base_pay AS FLOAT64) AS base_pay,
     CAST(overtime_pay AS FLOAT64) AS overtime_pay,
     CAST(other_pay AS FLOAT64) AS other_pay
-
   FROM
     `quixotic-elf-458922-v0.payroll_2025.payroll_2021`
 
 UNION ALL
-
   SELECT
     CAST(hash1 AS STRING) AS name,
     CAST(birth_year AS INT64) AS birth_year,
@@ -66,12 +63,10 @@ UNION ALL
     CAST(base_pay AS FLOAT64) AS base_pay,
     CAST(overtime_pay AS FLOAT64) AS overtime_pay,
     CAST(other_pay AS FLOAT64) AS other_pay
-
   FROM
     `quixotic-elf-458922-v0.payroll_2025.payroll_2022`
 
 UNION ALL
-
   SELECT
     CAST(hash1 AS STRING) AS name,
     CAST(birth_year AS INT64) AS birth_year,
@@ -90,12 +85,10 @@ UNION ALL
     CAST(base_pay AS FLOAT64) AS base_pay,
     CAST(overtime_pay AS FLOAT64) AS overtime_pay,
     CAST(other_pay AS FLOAT64) AS other_pay
-
   FROM
     `quixotic-elf-458922-v0.payroll_2025.payroll_2023`
 
 UNION ALL
-
   SELECT
     CAST(hash1 AS STRING) AS name,
     CAST(birth_year AS INT64) AS birth_year,
@@ -114,6 +107,5 @@ UNION ALL
     CAST(base_pay AS FLOAT64) AS base_pay,
     CAST(overtime_pay AS FLOAT64) AS overtime_pay,
     CAST(other_pay AS FLOAT64) AS other_pay
-
   FROM
     `quixotic-elf-458922-v0.payroll_2025.payroll_2024`
